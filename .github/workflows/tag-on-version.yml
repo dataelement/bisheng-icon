@@ -1,0 +1,40 @@
+name: Auto tag on version change
+
+# 当 main 上的 package.json 发生变化时，读取其 version 字段，
+# 若对应的 v<version> tag 不存在则自动创建并推送。
+# 这样发版只需 bump package.json 的 version，无需手动打 tag。
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - package.json
+
+permissions:
+  contents: write
+
+jobs:
+  tag:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read version from package.json
+        id: pkg
+        run: echo "version=$(node -p "require('./package.json').version")" >> "$GITHUB_OUTPUT"
+
+      - name: Create and push tag if missing
+        env:
+          TAG: v${{ steps.pkg.outputs.version }}
+        run: |
+          if git rev-parse "$TAG" >/dev/null 2>&1; then
+            echo "Tag $TAG already exists — skipping."
+          else
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git tag -a "$TAG" -m "Release $TAG"
+            git push origin "$TAG"
+            echo "Created and pushed $TAG"
+          fi
