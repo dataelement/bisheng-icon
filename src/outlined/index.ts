@@ -61,6 +61,7 @@ export { default as RightTriangle } from './RightTriangle';
 export { default as Rss } from './Rss';
 export { default as Search } from './Search';
 export { default as Share } from './Share';
+export { default as SidebarMenu } from './SidebarMenu';
 export { default as Sort } from './Sort';
 export { default as SortAmountDown } from './SortAmountDown';
 export { default as SortAmountUp } from './SortAmountUp';
