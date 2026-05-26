@@ -1,7 +1,7 @@
 import { forwardRef } from 'react';
 import type { IconProps } from '../types';
 
-const Pin = forwardRef<SVGSVGElement, IconProps>(
+const Filter = forwardRef<SVGSVGElement, IconProps>(
   ({ size = 24, color = 'currentColor', strokeWidth = 2, ...props }, ref) => (
     <svg
       ref={ref}
@@ -16,12 +16,18 @@ const Pin = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M15 4.5L11 8.5L7 10L5.5 11.5L12.5 18.5L14 17L15.5 13L19.5 9" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 15L4.5 19.5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M14.5 4L20 9.5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <g clipPath="url(#clip0_330069_1721)">
+<path d="M24 0H0V24H24V0Z" fillOpacity="0.01"/>
+<path d="M3 4.5L10.2 12.9089V19.2222L13.8 21V12.9089L21 4.5H3Z" strokeWidth="2" strokeLinejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_330069_1721">
+<rect width="24" height="24"/>
+</clipPath>
+</defs>
     </svg>
   )
 );
 
-Pin.displayName = 'Pin';
-export default Pin;
+Filter.displayName = 'Filter';
+export default Filter;
