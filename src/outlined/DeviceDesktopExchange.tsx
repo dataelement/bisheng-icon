@@ -16,17 +16,17 @@ const DeviceDesktopExchange = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M12 16H4C3.44772 16 3 15.5523 3 15V5C3 4.44772 3.44772 4 4 4H20C20.5523 4 21 4.44772 21 5V10" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7 20H12" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 16V20" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 12V8" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 12V11" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15 12V10" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 12V11" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M21.5 15H15" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M21.5 15L19.5 13" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15 18H21.5" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15 18L17 20" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M20 10V5H4V15H12C12.5523 15 13 15.4477 13 16C13 16.5523 12.5523 17 12 17H4C2.89543 17 2 16.1046 2 15V5C2 3.89543 2.89543 3 4 3H20C21.1046 3 22 3.89543 22 5V10C22 10.5523 21.5523 11 21 11C20.4477 11 20 10.5523 20 10Z"/>
+<path d="M12 19C12.5523 19 13 19.4477 13 20C13 20.5523 12.5523 21 12 21H7C6.44772 21 6 20.5523 6 20C6 19.4477 6.44772 19 7 19H12Z"/>
+<path d="M8 20V16C8 15.4477 8.44772 15 9 15C9.55228 15 10 15.4477 10 16V20C10 20.5523 9.55228 21 9 21C8.44772 21 8 20.5523 8 20Z"/>
+<path d="M8 12V8C8 7.44772 8.44772 7 9 7C9.55228 7 10 7.44772 10 8V12C10 12.5523 9.55228 13 9 13C8.44772 13 8 12.5523 8 12Z"/>
+<path d="M11 12V11C11 10.4477 11.4477 10 12 10C12.5523 10 13 10.4477 13 11V12C13 12.5523 12.5523 13 12 13C11.4477 13 11 12.5523 11 12Z"/>
+<path d="M14 12V10C14 9.44772 14.4477 9 15 9C15.5523 9 16 9.44772 16 10V12C16 12.5523 15.5523 13 15 13C14.4477 13 14 12.5523 14 12Z"/>
+<path d="M11 12V11C11 10.4477 11.4477 10 12 10C12.5523 10 13 10.4477 13 11V12C13 12.5523 12.5523 13 12 13C11.4477 13 11 12.5523 11 12Z"/>
+<path d="M15 14C14.4477 14 14 14.4477 14 15C14 15.5523 14.4477 16 15 16H21.5C22.0523 16 22.5 15.5523 22.5 15C22.5 14.4477 22.0523 14 21.5 14H15Z"/>
+<path d="M20.207 12.293C19.8165 11.9024 19.1835 11.9024 18.793 12.293C18.4024 12.6835 18.4024 13.3165 18.793 13.707L20.793 15.707C21.1835 16.0976 21.8165 16.0976 22.207 15.707C22.5976 15.3165 22.5976 14.6835 22.207 14.293L20.207 12.293Z"/>
+<path d="M21.5 19C22.0523 19 22.5 18.5523 22.5 18C22.5 17.4477 22.0523 17 21.5 17H15C14.4477 17 14 17.4477 14 18C14 18.5523 14.4477 19 15 19H21.5Z"/>
+<path d="M16.293 20.707C16.6835 21.0976 17.3165 21.0976 17.707 20.707C18.0976 20.3165 18.0976 19.6835 17.707 19.293L15.707 17.293C15.3165 16.9024 14.6835 16.9024 14.293 17.293C13.9024 17.6835 13.9024 18.3165 14.293 18.707L16.293 20.707Z"/>
     </svg>
   )
 );
