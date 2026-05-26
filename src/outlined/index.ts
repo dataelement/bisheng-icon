@@ -26,6 +26,7 @@ export { default as Download } from './Download';
 export { default as Drag } from './Drag';
 export { default as Earth } from './Earth';
 export { default as Edit } from './Edit';
+export { default as Exchange } from './Exchange';
 export { default as FileAddition } from './FileAddition';
 export { default as FileEditing } from './FileEditing';
 export { default as FileExcel } from './FileExcel';
