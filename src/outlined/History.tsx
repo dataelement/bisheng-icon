@@ -10,15 +10,23 @@ const History = forwardRef<SVGSVGElement, IconProps>(
       height={size}
       viewBox="0 0 24 24"
       fill="none"
-      stroke={color}
+      color={color}
       strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M1.90912 3.36365C1.90912 2.81136 2.35684 2.36365 2.90912 2.36365C3.4614 2.36365 3.90912 2.81136 3.90912 3.36365V6.00036H6.54584C7.09797 6.00055 7.54584 6.44819 7.54584 7.00036C7.54564 7.55237 7.09785 8.00018 6.54584 8.00036H2.90912C2.35696 8.00036 1.90932 7.55248 1.90912 7.00036V3.36365Z"/>
-<path d="M1 12C1 11.4477 1.44772 11 2 11C2.55228 11 3 11.4477 3 12C3 16.9706 7.02943 21 12 21C16.9706 21 21 16.9706 21 12C21 7.02943 16.9706 3 12 3C8.67036 3 5.76186 4.80775 4.2041 7.5C3.92752 7.97798 3.3159 8.14077 2.83789 7.86426C2.35986 7.58767 2.19606 6.97608 2.47266 6.49805C4.37324 3.21334 7.92767 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23C5.92487 23 1 18.0751 1 12Z"/>
-<path d="M11.0029 6C11.0029 5.44772 11.4506 4.99994 12.0029 5C12.555 5.0002 13.0029 5.44785 13.0029 6L13.0019 11.5898L16.9492 15.5371C17.3393 15.9276 17.3393 16.5607 16.9492 16.9512C16.5586 17.3417 15.9247 17.3417 15.5341 16.9512L11.2949 12.7119C11.1073 12.5244 11.0019 12.2692 11.0019 12.0039L11.0029 6Z"/>
+      <g clipPath="url(#clip0_330058_23)">
+<path d="M24 0H0V24H24V0Z" fill="currentColor" fillOpacity="0.01"/>
+<path d="M2.90918 3.36365V7H6.54556" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M2 12C2 17.5229 6.47715 22 12 22C17.5229 22 22 17.5229 22 12C22 6.47715 17.5229 2 12 2C8.299 2 5.06755 4.01056 3.33839 6.99905" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M12.0026 6L12.002 12.0044L16.2417 16.2441" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+</g>
+<defs>
+<clipPath id="clip0_330058_23">
+<rect width="24" height="24" fill="currentColor"/>
+</clipPath>
+</defs>
     </svg>
   )
 );

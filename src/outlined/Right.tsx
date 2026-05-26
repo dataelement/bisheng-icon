@@ -10,13 +10,13 @@ const Right = forwardRef<SVGSVGElement, IconProps>(
       height={size}
       viewBox="0 0 24 24"
       fill="none"
-      stroke={color}
+      color={color}
       strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M8.79289 5.29295C9.18342 4.90243 9.81643 4.90243 10.207 5.29295L16.207 11.293C16.5975 11.6835 16.5975 12.3165 16.207 12.707L10.207 18.707C9.81643 19.0975 9.18342 19.0975 8.79289 18.707C8.40237 18.3165 8.40237 17.6835 8.79289 17.293L14.0859 12L8.79289 6.70702C8.40237 6.31649 8.40237 5.68348 8.79289 5.29295Z"/>
+      <path d="M9.5 6L15.5 12L9.5 18" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

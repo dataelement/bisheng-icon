@@ -10,18 +10,18 @@ const SortAmountUp = forwardRef<SVGSVGElement, IconProps>(
       height={size}
       viewBox="0 0 24 24"
       fill="none"
-      stroke={color}
+      color={color}
       strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M21.4999 3.5C22.0522 3.5 22.4999 3.94772 22.4999 4.5C22.4999 5.05228 22.0522 5.5 21.4999 5.5H11.4999C10.9476 5.5 10.4999 5.05228 10.4999 4.5C10.4999 3.94772 10.9476 3.5 11.4999 3.5H21.4999Z"/>
-<path d="M5.79289 3.29297C6.18342 2.90244 6.81643 2.90244 7.20696 3.29297C7.59748 3.68349 7.59748 4.31651 7.20696 4.70703L3.20696 8.70703C2.81643 9.09756 2.18342 9.09756 1.79289 8.70703C1.40237 8.31651 1.40237 7.68349 1.79289 7.29297L5.79289 3.29297Z"/>
-<path d="M5.49992 21V4C5.49992 3.44772 5.94764 3 6.49992 3C7.05221 3 7.49992 3.44772 7.49992 4V21C7.49992 21.5523 7.05221 22 6.49992 22C5.94764 22 5.49992 21.5523 5.49992 21Z"/>
-<path d="M19.4999 8.5C20.0522 8.5 20.4999 8.94772 20.4999 9.5C20.4999 10.0523 20.0522 10.5 19.4999 10.5H11.4999C10.9476 10.5 10.4999 10.0523 10.4999 9.5C10.4999 8.94772 10.9476 8.5 11.4999 8.5H19.4999Z"/>
-<path d="M17.4999 13.5C18.0522 13.5 18.4999 13.9477 18.4999 14.5C18.4999 15.0523 18.0522 15.5 17.4999 15.5H11.4999C10.9476 15.5 10.4999 15.0523 10.4999 14.5C10.4999 13.9477 10.9476 13.5 11.4999 13.5H17.4999Z"/>
-<path d="M15.4999 18.5C16.0522 18.5 16.4999 18.9477 16.4999 19.5C16.4999 20.0523 16.0522 20.5 15.4999 20.5H11.4999C10.9476 20.5 10.4999 20.0523 10.4999 19.5C10.4999 18.9477 10.9476 18.5 11.4999 18.5H15.4999Z"/>
+      <path d="M11.5 4.5H21.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M2.5 8L6.5 4" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M6.5 4V21" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11.5 9.5H19.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11.5 14.5H17.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M11.5 19.5H15.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

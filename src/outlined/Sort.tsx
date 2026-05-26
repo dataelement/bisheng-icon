@@ -10,16 +10,16 @@ const Sort = forwardRef<SVGSVGElement, IconProps>(
       height={size}
       viewBox="0 0 24 24"
       fill="none"
-      stroke={color}
+      color={color}
       strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M14.5 4.75C15.0523 4.75 15.5 5.19772 15.5 5.75C15.5 6.30228 15.0523 6.75 14.5 6.75H3C2.44772 6.75 2 6.30228 2 5.75C2 5.19772 2.44772 4.75 3 4.75H14.5Z"/>
-<path d="M14.5 11.25C15.0523 11.25 15.5 11.6977 15.5 12.25C15.5 12.8023 15.0523 13.25 14.5 13.25H3C2.44772 13.25 2 12.8023 2 12.25C2 11.6977 2.44772 11.25 3 11.25H14.5Z"/>
-<path d="M17 5.75C17 5.19772 17.4477 4.75 18 4.75C18.5523 4.75 19 5.19772 19 5.75V16.0469L20.2412 14.5996C20.6006 14.1803 21.2311 14.1318 21.6504 14.4912C22.0697 14.8506 22.1182 15.4811 21.7588 15.9004L18.7588 19.4004C18.4865 19.7181 18.0458 19.8326 17.6533 19.6875C17.2608 19.5423 17 19.1685 17 18.75V5.75Z"/>
-<path d="M14.5 17.75C15.0523 17.75 15.5 18.1977 15.5 18.75C15.5 19.3023 15.0523 19.75 14.5 19.75H3C2.44772 19.75 2 19.3023 2 18.75C2 18.1977 2.44772 17.75 3 17.75H14.5Z"/>
+      <path d="M3 5.75H14.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 12.25H14.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M18 5.75V18.75L21 15.25" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M3 18.75H14.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

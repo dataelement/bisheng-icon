@@ -10,13 +10,13 @@ const Down = forwardRef<SVGSVGElement, IconProps>(
       height={size}
       viewBox="0 0 24 24"
       fill="none"
-      stroke={color}
+      color={color}
       strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M17.7929 8.29295C18.1834 7.90243 18.8164 7.90243 19.207 8.29295C19.5975 8.68348 19.5975 9.31649 19.207 9.70702L13.207 15.707C12.8164 16.0975 12.1834 16.0975 11.7929 15.707L5.79289 9.70702C5.40237 9.31649 5.40237 8.68348 5.79289 8.29295C6.18342 7.90243 6.81643 7.90243 7.20696 8.29295L12.4999 13.5859L17.7929 8.29295Z"/>
+      <path d="M18.5 9L12.5 15L6.5 9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );

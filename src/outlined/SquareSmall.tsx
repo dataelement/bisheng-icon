@@ -10,13 +10,13 @@ const SquareSmall = forwardRef<SVGSVGElement, IconProps>(
       height={size}
       viewBox="0 0 24 24"
       fill="none"
-      stroke={color}
+      color={color}
       strokeWidth={strokeWidth}
       strokeLinecap="round"
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M7 7V17H17V7H7ZM19 17C19 18.1046 18.1046 19 17 19H7C5.89542 19 5 18.1046 5 17V7C5 5.89542 5.89542 5 7 5H17C18.1046 5 19 5.89542 19 7V17Z"/>
+      <path d="M17 6H7C6.4477 6 6 6.4477 6 7V17C6 17.5523 6.4477 18 7 18H17C17.5523 18 18 17.5523 18 17V7C18 6.4477 17.5523 6 17 6Z" stroke="currentColor"/>
     </svg>
   )
 );
