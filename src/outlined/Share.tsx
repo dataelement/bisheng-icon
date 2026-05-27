@@ -16,9 +16,9 @@ const Share = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M14 3H21V10" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M21 14.7368V19.5C21 20.3285 20.3285 21 19.5 21H4.5C3.67158 21 3 20.3285 3 19.5V4.5C3 3.67158 3.67158 3 4.5 3H9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12.8999 11.1L20.5499 3.44995" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M14.1567 3.37292H20.627V9.84323" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M20.6272 14.6234V19.1892C20.6272 19.9834 19.9835 20.6271 19.1894 20.6271H4.81089C4.01679 20.6271 3.37305 19.9834 3.37305 19.1892V4.81077C3.37305 4.01667 4.01679 3.37292 4.81089 3.37292H9.12443" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.0784 10.9216L20.6271 3.37292" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );
