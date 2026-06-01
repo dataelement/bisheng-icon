@@ -53,6 +53,7 @@ export { default as More } from './More';
 export { default as MoreCircle } from './MoreCircle';
 export { default as Notebook } from './Notebook';
 export { default as PeopleSafe } from './PeopleSafe';
+export { default as Pin } from './Pin';
 export { default as PlayerPause } from './PlayerPause';
 export { default as Plus } from './Plus';
 export { default as Question } from './Question';
