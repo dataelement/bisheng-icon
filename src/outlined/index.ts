@@ -78,6 +78,7 @@ export { default as ThumbsUp } from './ThumbsUp';
 export { default as ToTop } from './ToTop';
 export { default as Translate } from './Translate';
 export { default as Up } from './Up';
+export { default as Upload } from './Upload';
 export { default as ViewGridCard } from './ViewGridCard';
 export { default as ViewOnOtherPage } from './ViewOnOtherPage';
 export { default as VolumeNotice } from './VolumeNotice';
