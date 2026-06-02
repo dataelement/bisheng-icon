@@ -16,7 +16,7 @@ const PinOff = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M5.34806 8.75212C5.34806 8.75212 7.46001 10.8641 9.21901 12.6231L3.22144 20.7782L11.3585 14.7625C13.1174 16.5215 15.2476 18.6516 15.2476 18.6516M12.8622 6.78352L16.3099 4.87256L15.9494 2.39343L21.6062 8.05027L19.1327 7.69537L17.2187 11.14" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M5.88026 8.96555C5.88026 8.96555 7.83314 10.9184 9.45964 12.5449L3.91382 20.0858L11.4379 14.5232C13.0644 16.1497 15.0341 18.1194 15.0341 18.1194M12.8285 7.14523L16.0164 5.37821L15.6831 3.08582L20.9138 8.31656L18.6266 7.9884L16.8568 11.1736" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M4.44897 3.03467L21.5511 20.1368" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
