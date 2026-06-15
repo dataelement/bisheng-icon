@@ -37,6 +37,7 @@ export { default as Earth } from './Earth';
 export { default as Edit } from './Edit';
 export { default as Exchange } from './Exchange';
 export { default as ExpandTextInput } from './ExpandTextInput';
+export { default as File } from './File';
 export { default as FileAddition } from './FileAddition';
 export { default as FileEditing } from './FileEditing';
 export { default as FileExcel } from './FileExcel';
