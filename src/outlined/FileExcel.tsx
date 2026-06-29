@@ -16,11 +16,11 @@ const FileExcel = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M5 2H15L20 7V21C20 21.5523 19.5523 22 19 22H5C4.44771 22 4 21.5523 4 21V3C4 2.44771 4.44771 2 5 2Z" stroke="currentColor" strokeLinejoin="round"/>
-<path d="M16 8.95941H8V16.9594H16" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16 12.9594H8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12.0049 16.9644L12.0049 8.96442" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16 16.9644L16 8.96442" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M7.99993 13L10.2856 13" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.7143 13L16 13" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M7.99993 17L10.2856 17" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M13.7143 17L16 17" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+<path d="M4 18.8C4 19.9201 4 20.4802 4.21799 20.908C4.40973 21.2843 4.71569 21.5903 5.09202 21.782C5.51984 22 6.07989 22 7.2 22H16.8C17.9201 22 18.4802 22 18.908 21.782C19.2843 21.5903 19.5903 21.2843 19.782 20.908C20 20.4802 20 19.9201 20 18.8V8.22795C20 7.77381 20 7.54674 19.9519 7.33132C19.9092 7.14026 19.8387 6.95651 19.7426 6.78594C19.6343 6.59361 19.4823 6.42483 19.1785 6.08727L16.4534 3.05931C16.1023 2.66925 15.9268 2.47422 15.7163 2.33433C15.5298 2.21035 15.3237 2.11858 15.1068 2.06287C14.862 2 14.5996 2 14.0748 2H7.2C6.07989 2 5.51984 2 5.09202 2.21799C4.71569 2.40973 4.40973 2.71569 4.21799 3.09202C4 3.51984 4 4.07989 4 5.2V18.8Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
     </svg>
   )
 );
