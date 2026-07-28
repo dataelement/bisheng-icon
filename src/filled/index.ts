@@ -5,4 +5,6 @@ export { default as CheckCircle } from './CheckCircle';
 export { default as CloseCircle } from './CloseCircle';
 export { default as Home } from './Home';
 export { default as Info } from './Info';
+export { default as PlayerPause } from './PlayerPause';
+export { default as PlayerPlay } from './PlayerPlay';
 export { default as Rss } from './Rss';
