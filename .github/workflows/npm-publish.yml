@@ -38,7 +38,19 @@ jobs:
           fi
           echo "version $PKG_VERSION matches tag $GITHUB_REF_NAME"
 
+      - name: Check if version already published
+        id: check
+        run: |
+          PKG_VERSION=$(node -p "require('./package.json').version")
+          if npm view "bisheng-icons@$PKG_VERSION" version >/dev/null 2>&1; then
+            echo "exists=true" >> "$GITHUB_OUTPUT"
+            echo "::notice::bisheng-icons@$PKG_VERSION 已在 npm 上（可能已手动发布），跳过重复发布"
+          else
+            echo "exists=false" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Publish to npm
+        if: steps.check.outputs.exists == 'false'
         run: npm publish --access public
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
