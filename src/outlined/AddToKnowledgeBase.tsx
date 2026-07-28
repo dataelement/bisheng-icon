@@ -21,8 +21,8 @@ const AddToKnowledgeBase = forwardRef<SVGSVGElement, IconProps>(
 <path d="M1.86084 5.25378V19.8986" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M12 5.25378V19.8986" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
 <path d="M22.1392 5.25378V12.0129" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M20.0044 13.8986L20.0044 19.8986" stroke="currentColor" strokeLinecap="round"/>
-<path d="M17.0044 16.8986H23.0044" stroke="currentColor" strokeLinecap="round"/>
+<path d="M20.0046 13.8986L20.0046 19.8986" stroke="currentColor" strokeLinecap="round"/>
+<path d="M17.0046 16.8986H23.0046" stroke="currentColor" strokeLinecap="round"/>
     </svg>
   )
 );
