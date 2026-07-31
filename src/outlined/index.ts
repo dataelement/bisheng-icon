@@ -60,6 +60,7 @@ export { default as FileWord } from './FileWord';
 export { default as Filter } from './Filter';
 export { default as FolderClose } from './FolderClose';
 export { default as FolderOpen } from './FolderOpen';
+export { default as FontSize } from './FontSize';
 export { default as FullScreen } from './FullScreen';
 export { default as Hammer } from './Hammer';
 export { default as History } from './History';
