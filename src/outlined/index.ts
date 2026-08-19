@@ -91,6 +91,7 @@ export { default as Plus } from './Plus';
 export { default as Question } from './Question';
 export { default as Refresh } from './Refresh';
 export { default as Research } from './Research';
+export { default as Return } from './Return';
 export { default as Right } from './Right';
 export { default as RightSidebar } from './RightSidebar';
 export { default as RightTriangle } from './RightTriangle';
