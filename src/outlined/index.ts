@@ -83,6 +83,7 @@ export { default as MoreCircle } from './MoreCircle';
 export { default as MoveToFolder } from './MoveToFolder';
 export { default as Newspaper } from './Newspaper';
 export { default as Notebook } from './Notebook';
+export { default as PeopleEdit } from './PeopleEdit';
 export { default as PeopleRound } from './PeopleRound';
 export { default as PeopleSafe } from './PeopleSafe';
 export { default as PictureInPicture } from './PictureInPicture';
