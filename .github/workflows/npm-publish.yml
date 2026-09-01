@@ -11,6 +11,9 @@ on:
   push:
     tags:
       - 'v*'
+  # auto-tag 工作流用 GITHUB_TOKEN 打的 tag 不会触发 push 事件（GitHub 防递归），
+  # 这种情况下用手动触发兜底：发布 main 上 package.json 声明的版本。
+  workflow_dispatch:
 
 jobs:
   publish:
@@ -31,6 +34,7 @@ jobs:
         run: npm ci
 
       - name: Verify version matches tag
+        if: github.event_name == 'push'
         run: |
           PKG_VERSION=$(node -p "require('./package.json').version")
           TAG_VERSION="${GITHUB_REF_NAME#v}"
