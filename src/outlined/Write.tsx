@@ -16,8 +16,8 @@ const Write = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path fillRule="evenodd" clipRule="evenodd" d="M12 12V9.5L19.5 2L22 4.5L14.5 12H12Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M8 12H4.5C3.11929 12 2 13.1193 2 14.5C2 15.8807 3.11929 17 4.5 17H19.5C20.8807 17 22 18.1193 22 19.5C22 20.8807 20.8807 22 19.5 22H9" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 12V9.5L19.5 2L22 4.5L14.5 12H12Z" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M8 12H4.5C3.11929 12 2 13.1193 2 14.5C2 15.8807 3.11929 17 4.5 17H19.5C20.8807 17 22 18.1193 22 19.5C22 20.8807 20.8807 22 19.5 22H9" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

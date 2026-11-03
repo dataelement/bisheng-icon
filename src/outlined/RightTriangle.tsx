@@ -16,7 +16,7 @@ const RightTriangle = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M10 6L16 12L10 18V6Z" stroke="currentColor" strokeLinejoin="round"/>
+      <path d="M10 6L16 12L10 18V6Z" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

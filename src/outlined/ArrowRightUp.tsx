@@ -16,8 +16,8 @@ const ArrowRightUp = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M8 16L16.5 7.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7.5 7.5H16.5V16.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M8 16L16.5 7.5" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M7.5 7.5H16.5V16.5" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

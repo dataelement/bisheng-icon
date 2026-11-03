@@ -16,10 +16,10 @@ const ViewGridCard = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M9.99927 4.00024H3.99927V10.0002H9.99927V4.00024Z" stroke="currentColor" strokeLinejoin="round"/>
-<path d="M19.9993 4.00024H13.9993V10.0002H19.9993V4.00024Z" stroke="currentColor" strokeLinejoin="round"/>
-<path d="M9.99927 14.0002H3.99927V20.0002H9.99927V14.0002Z" stroke="currentColor" strokeLinejoin="round"/>
-<path d="M19.9993 14.0002H13.9993V20.0002H19.9993V14.0002Z" stroke="currentColor" strokeLinejoin="round"/>
+      <path d="M3.99927 4.00024H9.99927V10.0002H3.99927V4.00024Z" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M13.9993 4.00024H19.9993V10.0002H13.9993V4.00024Z" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M3.99927 14.0002H9.99927V20.0002H3.99927V14.0002Z" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M13.9993 14.0002H19.9993V20.0002H13.9993V14.0002Z" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

@@ -16,10 +16,10 @@ const Sort = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M3 5.75H14.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 12.25H14.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M18 5.75V18.75L21 15.25" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M3 18.75H14.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M3 5.75H14.5" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M3 12.25H14.5" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M18 5.75V18.75L21 15.25" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M3 18.75H14.5" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

@@ -16,8 +16,8 @@ const CornerDownLeft = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M8 9L4 13L8 17" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M20 5V11.5C20 12.3285 19.3285 13 18.5 13H4" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M8 9L4 13L8 17" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M20 5V11.5C20 12.3285 19.3285 13 18.5 13H4" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

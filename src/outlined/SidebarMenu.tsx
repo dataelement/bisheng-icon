@@ -16,9 +16,9 @@ const SidebarMenu = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M4 6H20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M4 12H20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M4 18H16" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M4 6H20" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M4 12H20" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M4 18H16" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

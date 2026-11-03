@@ -16,17 +16,17 @@ const DeviceDesktopExchange = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M12 16H4C3.44772 16 3 15.5523 3 15V5C3 4.44772 3.44772 4 4 4H20C20.5523 4 21 4.44772 21 5V10" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M7 20H12" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 16V20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9 12V8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 12V11" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15 12V10" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 12V11" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M21.5 15H15" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M21.5 15L19.5 13" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15 18H21.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15 18L17 20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 16H4C3.44772 16 3 15.5523 3 15V5C3 4.44772 3.44772 4 4 4H20C20.5523 4 21 4.44772 21 5V10" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M7 20H12" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M9 16V20" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M9 12V8" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M12 12V11" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M15 12V10" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M12 12V11" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M21.5 15H15" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M21.5 15L19.5 13" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M15 18H21.5" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M15 18L17 20" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

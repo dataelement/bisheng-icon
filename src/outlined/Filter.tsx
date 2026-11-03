@@ -16,7 +16,7 @@ const Filter = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M3 4.5L10.2 12.9089V19.2222L13.8 21V12.9089L21 4.5H3Z" stroke="currentColor" strokeLinejoin="round"/>
+      <path d="M3 4.5L10.2 12.9089V19.2222L13.8 21V12.9089L21 4.5H3Z" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

@@ -16,9 +16,9 @@ const ToTop = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M12.0042 7.05023V21" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6 13L12 7L18 13" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6 3H18" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12.0042 7.05023V21" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M6 13L12 7L18 13" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M6 3H18" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

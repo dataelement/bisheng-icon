@@ -16,7 +16,7 @@ const DownTriangle = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M18 9.5L12 15.5L6 9.5H18Z" stroke="currentColor" strokeLinejoin="round"/>
+      <path d="M18 9.5L12 15.5L6 9.5H18Z" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

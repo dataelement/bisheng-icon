@@ -16,8 +16,8 @@ const DoubleUp = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M6 12L12 6L18 12" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M6 18L12 12L18 18" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M6 12L12 6L18 12" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M6 18L12 12L18 18" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

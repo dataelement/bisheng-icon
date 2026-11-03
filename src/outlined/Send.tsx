@@ -16,8 +16,8 @@ const Send = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M21.5 2.5L14.85 21.5L11.05 12.95L2.5 9.15L21.5 2.5Z" stroke="currentColor" strokeLinejoin="round"/>
-<path d="M21.5 2.5L11.05 12.95" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M21.5 2.5L14.85 21.5L11.05 12.95L2.5 9.15L21.5 2.5Z" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M21.5 2.5L11.05 12.95" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

@@ -16,8 +16,8 @@ const CollapseTextInput = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M22 10H14V2" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M2 14H10V22" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M22 10H14V2" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M2 14H10V22" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

@@ -16,8 +16,8 @@ const DoubleCheck = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M19.1 5.67578L7 17.7758L1.5 12.2758" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M22.5001 10.0742L14.2501 18.3242L12.6001 16.6742" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M19.1 5.67578L7 17.7758L1.5 12.2758" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M22.5001 10.0742L14.2501 18.3242L12.6001 16.6742" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

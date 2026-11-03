@@ -16,10 +16,10 @@ const FileAddition = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M20 11.5V7L15.5 2H5C4.44771 2 4 2.44771 4 3V21C4 21.5523 4.44771 22 5 22H11" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16.5 14.5V21.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M13 18H16.5H20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M15 2V7H20" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M20 11.5V7L15.5 2H5C4.44771 2 4 2.44771 4 3V21C4 21.5523 4.44771 22 5 22H11" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M16.5 14.5V21.5" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M13 18H16.5H20" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M15 2V7H20" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

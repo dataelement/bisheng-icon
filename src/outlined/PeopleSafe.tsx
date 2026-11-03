@@ -16,9 +16,9 @@ const PeopleSafe = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M3 4.62782L12.0043 2L21 4.62782V10.0169C21 15.6811 17.3751 20.2097 12.0013 22.0002C6.62605 20.2097 3 15.68 3 10.0143V4.62782Z" stroke="currentColor" strokeLinejoin="round"/>
-<path d="M12 11.5C13.3807 11.5 14.5 10.3807 14.5 9C14.5 7.61929 13.3807 6.5 12 6.5C10.6193 6.5 9.5 7.61929 9.5 9C9.5 10.3807 10.6193 11.5 12 11.5Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16 15.5C16 13.2908 14.2092 11.5 12 11.5C9.79085 11.5 8 13.2908 8 15.5" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M3 4.62782L12.0043 2L21 4.62782V10.0169C21 15.6811 17.3751 20.2097 12.0013 22.0002C6.62605 20.2097 3 15.68 3 10.0143V4.62782Z" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M14.5 9C14.5 10.3807 13.3807 11.5 12 11.5C10.6193 11.5 9.5 10.3807 9.5 9C9.5 7.61929 10.6193 6.5 12 6.5C13.3807 6.5 14.5 7.61929 14.5 9Z" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M16 15.5C16 13.2908 14.2092 11.5 12 11.5C9.79085 11.5 8 13.2908 8 15.5" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

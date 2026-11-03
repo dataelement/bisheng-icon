@@ -16,7 +16,7 @@ const Up = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M6.5 15L12.5 9L18.5 15" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M6.5 15L12.5 9L18.5 15" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

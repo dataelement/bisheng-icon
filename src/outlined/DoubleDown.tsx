@@ -16,8 +16,8 @@ const DoubleDown = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M18 6L12 12L6 6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M18 12L12 18L6 12" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M18 6L12 12L6 6" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M18 12L12 18L6 12" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

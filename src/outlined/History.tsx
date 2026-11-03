@@ -16,9 +16,9 @@ const History = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M2.90918 3.36365V7H6.54556" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M2 12C2 17.5229 6.47715 22 12 22C17.5229 22 22 17.5229 22 12C22 6.47715 17.5229 2 12 2C8.299 2 5.06755 4.01056 3.33839 6.99905" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12.0026 6L12.002 12.0044L16.2417 16.2441" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M2.90918 3.36365V7H6.54556" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M2 12C2 17.5229 6.47715 22 12 22C17.5229 22 22 17.5229 22 12C22 6.47715 17.5229 2 12 2C8.299 2 5.06755 4.01056 3.33839 6.99905" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M12.0026 6L12.002 12.0044L16.2417 16.2441" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

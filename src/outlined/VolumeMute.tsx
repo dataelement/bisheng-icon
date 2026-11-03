@@ -16,9 +16,9 @@ const VolumeMute = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M20.3674 10.1429L16.1248 14.3855" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M16.1248 10.1429L20.3674 14.3855" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 3V21C8.5 21 5.89925 16.4195 5.89925 16.4195H3C2.44771 16.4195 2 15.9718 2 15.4195V8.5054C2 7.9531 2.44771 7.5054 3 7.5054H5.89925C5.89925 7.5054 8.5 3 12 3Z" stroke="currentColor" strokeLinejoin="round"/>
+      <path d="M20.3674 10.1429L16.1248 14.3855" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M16.1248 10.1429L20.3674 14.3855" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M12 3V21C8.5 21 5.89925 16.4195 5.89925 16.4195H3C2.44771 16.4195 2 15.9718 2 15.4195V8.5054C2 7.9531 2.44771 7.5054 3 7.5054H5.89925C5.89925 7.5054 8.5 3 12 3Z" strokeLinejoin="round" stroke="currentColor"/>
     </svg>
   )
 );

@@ -16,9 +16,9 @@ const Home = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M4.08322 21.4999V8.83332L1.44434 10.9444L11.9999 2.5L22.5554 10.9444L19.9165 8.83332V21.4999H4.08322Z" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M9.36108 14.6389V21.5H14.6388V14.6389H9.36108Z" stroke="currentColor" strokeLinejoin="round"/>
-<path d="M4.08325 21.5H19.9165" stroke="currentColor" strokeLinecap="round"/>
+      <path d="M4.08322 21.4999V8.83332L1.44434 10.9444L11.9999 2.5L22.5554 10.9444L19.9165 8.83332V21.4999H4.08322Z" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M9.36108 14.6389V21.5H14.6388V14.6389H9.36108Z" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M4.08325 21.5H19.9165" strokeLinecap="round" stroke="currentColor"/>
     </svg>
   )
 );

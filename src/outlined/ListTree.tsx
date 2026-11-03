@@ -16,11 +16,11 @@ const ListTree = forwardRef<SVGSVGElement, IconProps>(
       strokeLinejoin="round"
       {...props}
     >
-      <path d="M12 6L21 6" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 13H21" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M12 20H21" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M4 11C4 11.5304 4.21071 12.0391 4.58579 12.4142C4.96086 12.7893 5.46957 13 6 13H8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
-<path d="M4 6V18C4 18.5304 4.21071 19.0391 4.58579 19.4142C4.96086 19.7893 5.46957 20 6 20H8" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round"/>
+      <path d="M12 6L21 6" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M12 13H21" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M12 20H21" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M4 11C4 11.5304 4.21071 12.0391 4.58579 12.4142C4.96086 12.7893 5.46957 13 6 13H8" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
+<path d="M4 6V18C4 18.5304 4.21071 19.0391 4.58579 19.4142C4.96086 19.7893 5.46957 20 6 20H8" strokeLinecap="round" strokeLinejoin="round" stroke="currentColor"/>
 <circle cx="4.5" cy="6.5" r="2.5" fill="currentColor"/>
     </svg>
   )
